@@ -12,9 +12,13 @@ app.get('/', function (req, res) {
 app.get('/article-one',function(res, req) {
     res.send('Article one requested and will be served here');
 });
+
+
 app.get('/article-two',function(res, req) {
     res.send('Article two requested and will be served here');
 });
+
+
 app.get('/article-three',function(res, req) {
     res.send('Article three requested and will be served here');
 });
